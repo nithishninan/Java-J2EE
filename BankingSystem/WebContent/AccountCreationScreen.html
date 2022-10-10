@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create an Account</title>
+</head>
+<body bgcolor="#98FB98">
+<center>
+<h1>Account Creation Screen</h1>
+</center>
+<form action="AccountCreation" method="post">
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" required maxlength="40"></input></td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" name="dob" required></input></td>
+</tr>
+<tr>
+<td valign="top">Address</td>
+<td><input type="text" name="address" style="width:250px;height:75px" required maxlength="100""></input></td>
+</tr>
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="mailid" required></input></td>
+</tr>
+<tr>
+<td>Type of Account</td>
+<td><select name="accounttype">
+    <option value="currentaccount">Current Account</option>
+    <option value="sbaccount">SB Account</option>
+  </select></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="Create Account">
+</form>
+</body>
+</html>

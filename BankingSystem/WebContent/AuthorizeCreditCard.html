@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Authorize Credit Card Transactions</title>
+</head>
+<body bgcolor="#98FB98">
+<center>
+<h1>Authorize Credit Card Transactions</h1>
+</center>
+<form action="AuthorizeCC" method="post">
+<table>
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" required maxlength="40"></td>
+</tr>
+<tr>
+<td>Card Number</td>
+<td><input type="text" name="cardno" required maxlength="40"></td>
+</tr>
+<tr>
+<td>CVV2CVC2</td>
+<td><input type="text" name="cvv" required maxlength="40"></td>
+</tr>
+<tr>
+<td>Amount</td>
+<td><input type="number" name="amount1" required maxlength="40"></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="Authorize">
+</form>
+</body>
+</html>

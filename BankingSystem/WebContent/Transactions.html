@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transactions</title>
+</head>
+<body bgcolor="#98FB98">
+<center>
+<h1>Perform Debit or Credit operation</h1>
+</center>
+<form action="Transaction" method="post">
+<table>
+<tr>
+<td>Account number</td>
+<td><input type="number" name="accno" required maxlength="40"></td>
+</tr>
+<tr>
+<td>Amount</td>
+<td><input type="number" name="amount" required maxlength="40"></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="Debit From" name="withdraw">
+<input type="submit" value="Credit To" name="deposit">
+</form>
+</body>
+</html>
